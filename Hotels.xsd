@@ -21,7 +21,7 @@
                 </xs:complexType>
               </xs:element>
             </xs:sequence>
-            <xs:attribute name="Id" type="xs:integer" use="required"/>
+            <xs:attribute name="Id" type="xs:int" use="required"/>
             <xs:attribute name="Rating" type="xs:decimal" use="optional"/>
           </xs:complexType>
         </xs:element>
