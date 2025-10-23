@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotel>
+  <Hotel Id="1" Rating="4.2">
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>11</Number>
+      <Street>E 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- Missing required attribute Id -->
+  <Hotel Rating="4.5">
+    <!-- Two Name elements -->
+    <Name>Omni Tempe Hotel at ASU</Name>
+    <Name>Duplicate Name</Name>
+    <!-- Missing Phone element entirely -->
+    <Address NearestAirport="Sky Harbor">
+      <Number>7</Number>
+      <Street>E University Dr</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- Address element missing closing tag -->
+  <Hotel Id="3">
+    <Name>Canopy by Hilton Tempe Downtown</Name>
+    <Phone>480-968-6800</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>108</Number>
+      <Street>E University Dr</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+  </Hotel>
+</Hotel>
