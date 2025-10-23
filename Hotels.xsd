@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:element name="Hotels">
     <xs:complexType>
       <xs:sequence>
@@ -21,7 +21,7 @@
                 </xs:complexType>
               </xs:element>
             </xs:sequence>
-            <xs:attribute name="Id" type="xs:positiveInteger" use="required"/>
+            <xs:attribute name="Id" type="xs:integer" use="required"/>
             <xs:attribute name="Rating" type="xs:decimal" use="optional"/>
           </xs:complexType>
         </xs:element>
