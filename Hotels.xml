@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://djain46.github.io/cse445_a4/Hotels.xsd">
-  <Hotel Id="1" Rating="4.2">
+<Hotels>
+  <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearestAirport="Sky Habor">
       <Number>11</Number>
       <Street>E 7th St</Street>
       <City>Tempe</City>
@@ -13,7 +13,7 @@
     </Address>
   </Hotel>
 
-  <Hotel Id="2" Rating="4.5">
+  <Hotel Rating="4.5">
     <Name>Omni Tempe Hotel at ASU</Name>
     <Phone>602-794-8600</Phone>
     <Address NearestAirport="Sky Harbor">
@@ -25,7 +25,7 @@
     </Address>
   </Hotel>
 
-  <Hotel Id="3">
+  <Hotel>
     <Name>Canopy by Hilton Tempe Downtown</Name>
     <Phone>480-968-6800</Phone>
     <Address NearestAirport="Sky Harbor">
@@ -37,7 +37,7 @@
     </Address>
   </Hotel>
 
-  <Hotel Id="4" Rating="4.0">
+  <Hotel Rating="4.0">
     <Name>AC Hotel by Marriott Phoenix Tempe Downtown</Name>
     <Phone>480-642-6140</Phone>
     <Address NearestAirport="Sky Harbor">
@@ -49,7 +49,7 @@
     </Address>
   </Hotel>
 
-  <Hotel Id="5">
+  <Hotel>
     <Name>Moxy Phoenix Tempe ASU Area</Name>
     <Phone>480-337-2850</Phone>
     <Address NearestAirport="Sky Harbor">
@@ -61,7 +61,7 @@
     </Address>
   </Hotel>
 
-  <Hotel Id="6" Rating="4.1">
+  <Hotel Rating="4.1">
     <Name>Hyatt Place Tempe ASU</Name>
     <Phone>480-207-1577</Phone>
     <Address NearestAirport="Sky Harbor">
@@ -73,7 +73,7 @@
     </Address>
   </Hotel>
 
-  <Hotel Id="7">
+  <Hotel>
     <Name>Residence Inn Tempe Downtown University</Name>
     <Phone>480-967-2300</Phone>
     <Address NearestAirport="Sky Harbor">
@@ -85,7 +85,7 @@
     </Address>
   </Hotel>
 
-  <Hotel Id="8" Rating="3.9">
+  <Hotel Rating="3.9">
     <Name>Courtyard by Marriott Tempe Downtown</Name>
     <Phone>480-966-2800</Phone>
     <Address NearestAirport="Sky Harbor">
@@ -97,7 +97,7 @@
     </Address>
   </Hotel>
 
-  <Hotel Id="9" Rating="4.3">
+  <Hotel Rating="4.3">
     <Name>Hilton Garden Inn Phoenix Tempe ASU Area</Name>
     <Phone>480-965-8888</Phone>
     <Address NearestAirport="Sky Harbor">
@@ -109,7 +109,7 @@
     </Address>
   </Hotel>
 
-  <Hotel Id="10">
+  <Hotel>
     <Name>Aloft Tempe</Name>
     <Phone>480-621-3300</Phone>
     <Address NearestAirport="Sky Harbor">
@@ -121,7 +121,7 @@
     </Address>
   </Hotel>
 
-  <Hotel Id="11" Rating="4.2">
+  <Hotel Rating="4.2">
     <Name>Hyatt House Tempe Phoenix University</Name>
     <Phone>480-207-1577</Phone>
     <Address NearestAirport="Sky Harbor">
